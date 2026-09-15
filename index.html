@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Motel La Gaviota | Privacidad y Confort en Tarija</title>
+  
+  <!-- Tipografía Google Fonts: Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+
+  <!-- 1. HEADER -->
+  <header class="site-header" id="inicio">
+    <div class="header-container">
+      <a href="#inicio" class="brand-logo" aria-label="Motel La Gaviota - Inicio">
+        <img src="assets/logos/logo_motel_gaviota.jpg" alt="Motel La Gaviota" class="logo-img">
+      </a>
+
+      <nav class="main-nav" aria-label="Navegación principal">
+        <ul class="nav-list">
+          <li><a href="#habitaciones" class="nav-link">Habitaciones</a></li>
+          <li><a href="#servicios" class="nav-link">Servicios</a></li>
+          <li><a href="#galeria" class="nav-link">Galería</a></li>
+          <li><a href="#ubicacion" class="nav-link">Ubicación</a></li>
+        </ul>
+      </nav>
+
+      <a href="#consulta" class="btn-header-cta">Consultar</a>
+    </div>
+  </header>
+
+  <main>
+    <!-- 2. HERO -->
+    <section class="hero-section">
+      <div class="hero-glow-bg" aria-hidden="true"></div>
+      <div class="container hero-container">
+        <div class="hero-content" data-reveal>
+          <div class="hero-badge-wrap">
+            <span class="hero-badge">
+              <span class="badge-dot"></span>
+              Discreción &bull; Confort &bull; Tarija
+            </span>
+          </div>
+          <h1 class="hero-title">Tu espacio. <span class="hero-title-accent">Tu privacidad.</span> Tu momento.</h1>
+          <p class="hero-subtitle">Habitaciones cómodas y privadas en Tarija, pensadas para brindarte una estadía tranquila y reservada.</p>
+          
+          <div class="hero-actions">
+            <a href="#consulta" class="btn btn-primary btn-hero-cta">
+              <span>Consultar disponibilidad</span>
+              <svg class="btn-icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg>
+            </a>
+            <a href="#habitaciones" class="btn btn-secondary btn-hero-secondary">Ver habitaciones</a>
+          </div>
+
+          <div class="hero-highlights">
+            <div class="highlight-item">
+              <span class="highlight-icon-box" aria-hidden="true">
+                <svg class="highlight-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
+                  <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
+                </svg>
+              </span>
+              <span class="highlight-text">Ambiente discreto</span>
+            </div>
+
+            <div class="highlight-item">
+              <span class="highlight-icon-box" aria-hidden="true">
+                <svg class="highlight-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="m12 3-1.9 5.8a2 2 0 0 1-1.3 1.3L3 12l5.8 1.9a2 2 0 0 1 1.3 1.3L12 21l1.9-5.8a2 2 0 0 1 1.3-1.3L21 12l-5.8-1.9a2 2 0 0 1-1.3-1.3L12 3z"></path>
+                  <path d="M19 3v4"></path>
+                  <path d="M21 5h-4"></path>
+                </svg>
+              </span>
+              <span class="highlight-text">Espacios cuidados</span>
+            </div>
+
+            <div class="highlight-item">
+              <span class="highlight-icon-box" aria-hidden="true">
+                <svg class="highlight-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <polyline points="12 6 12 12 16 14"></polyline>
+                </svg>
+              </span>
+              <span class="highlight-text">Consulta en minutos</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual" data-reveal>
+          <div class="hero-image-card">
+            <div class="hero-image-inner">
+              <img src="assets/images/habitacion-2.jpg" alt="Habitación elegante y privada en Motel La Gaviota" class="hero-img" loading="eager">
+              <div class="hero-image-overlay"></div>
+            </div>
+            <div class="hero-image-floating-badge">
+              <div class="floating-badge-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                </svg>
+              </div>
+              <div class="floating-badge-text">
+                <span class="floating-badge-title">Estadía Reservada</span>
+                <span class="floating-badge-sub">Privacidad y confort continuo</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. HABITACIONES -->
+    <section class="section rooms-section" id="habitaciones">
+      <div class="container">
+        <div class="section-header" data-reveal>
+          <span class="section-tag">Nuestras Opciones</span>
+          <h2 class="section-title">Habitaciones pensadas para ti</h2>
+          <p class="section-description">Espacios privados, cómodos y discretos con tarifas transparentes por hora en Tarija.</p>
+        </div>
+
+        <div class="rooms-grid">
+          <!-- HABITACIÓN COMPLETA -->
+          <article class="room-card" data-reveal>
+            <div class="room-image-wrap">
+              <img src="assets/images/habitacion-2.jpg" alt="Habitación Completa - Motel La Gaviota" class="room-img" loading="lazy">
+              <div class="room-overlay-gradient"></div>
+              <span class="room-badge-pill">Mayor amplitud</span>
+            </div>
+            
+            <div class="room-content">
+              <div class="room-header">
+                <div class="room-title-block">
+                  <h3 class="room-title">Habitación Completa</h3>
+                  <span class="room-floor-tag">
+                    <svg class="tag-pin-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                    Segundo piso
+                  </span>
+                </div>
+                <div class="room-price-badge">
+                  <span class="price-badge-label">Tarifa base</span>
+                  <div class="price-badge-val-row">
+                    <span class="price-badge-from">Desde</span>
+                    <span class="price-badge-amount">Bs 50</span>
+                  </div>
+                </div>
+              </div>
+
+              <p class="room-description">Una opción más amplia y equipada, ideal para quienes buscan mayor comodidad y privacidad.</p>
+
+              <div class="room-pricing-box">
+                <div class="pricing-box-header">
+                  <span class="pricing-box-title">Estructura de precios</span>
+                  <span class="pricing-box-badge">Referencial</span>
+                </div>
+                <ul class="pricing-list">
+                  <li class="pricing-item">
+                    <span class="pricing-concept">1.ª hora</span>
+                    <span class="pricing-cost">Bs 50</span>
+                  </li>
+                  <li class="pricing-item">
+                    <span class="pricing-concept">2 horas</span>
+                    <span class="pricing-cost">Bs 80</span>
+                  </li>
+                  <li class="pricing-item pricing-item-extra">
+                    <span class="pricing-concept">Desde la 3.ª hora</span>
+                    <span class="pricing-cost">+ Bs 20 <span class="pricing-unit">/ hora adicional</span></span>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="room-actions">
+                <a href="#consulta" class="btn btn-primary btn-block btn-room-select" data-select-room="completa">
+                  <span>Consultar disponibilidad</span>
+                  <svg class="btn-icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- HABITACIÓN SENCILLA -->
+          <article class="room-card" data-reveal>
+            <div class="room-image-wrap">
+              <img src="assets/images/habitacion-1.jpg" alt="Habitación Sencilla - Motel La Gaviota" class="room-img" loading="lazy">
+              <div class="room-overlay-gradient"></div>
+              <span class="room-badge-pill">Práctica y cómoda</span>
+            </div>
+            
+            <div class="room-content">
+              <div class="room-header">
+                <div class="room-title-block">
+                  <h3 class="room-title">Habitación Sencilla</h3>
+                  <span class="room-floor-tag">
+                    <svg class="tag-pin-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+                    Espacio funcional
+                  </span>
+                </div>
+                <div class="room-price-badge">
+                  <span class="price-badge-label">Tarifa base</span>
+                  <div class="price-badge-val-row">
+                    <span class="price-badge-from">Desde</span>
+                    <span class="price-badge-amount">Bs 40</span>
+                  </div>
+                </div>
+              </div>
+
+              <p class="room-description">Una alternativa práctica y cómoda para quienes buscan un espacio privado y agradable.</p>
+
+              <div class="room-pricing-box">
+                <div class="pricing-box-header">
+                  <span class="pricing-box-title">Estructura de precios</span>
+                  <span class="pricing-box-badge">Referencial</span>
+                </div>
+                <ul class="pricing-list">
+                  <li class="pricing-item">
+                    <span class="pricing-concept">1.ª hora</span>
+                    <span class="pricing-cost">Bs 40</span>
+                  </li>
+                  <li class="pricing-item">
+                    <span class="pricing-concept">2 horas</span>
+                    <span class="pricing-cost">Bs 70</span>
+                  </li>
+                  <li class="pricing-item pricing-item-extra">
+                    <span class="pricing-concept">Desde la 3.ª hora</span>
+                    <span class="pricing-cost">+ Bs 20 <span class="pricing-unit">/ hora adicional</span></span>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="room-actions">
+                <a href="#consulta" class="btn btn-primary btn-block btn-room-select" data-select-room="sencilla">
+                  <span>Consultar disponibilidad</span>
+                  <svg class="btn-icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg>
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. BENEFICIOS -->
+    <section class="section services-section" id="servicios">
+      <div class="container">
+        <div class="section-header" data-reveal>
+          <span class="section-tag">Nuestra Propuesta</span>
+          <h2 class="section-title">Pensado para tu comodidad</h2>
+          <p class="section-description">Aspectos esenciales para brindarte una estadía tranquila, discreta y sin complicaciones.</p>
+        </div>
+
+        <div class="benefits-grid">
+          <!-- Privacidad -->
+          <div class="benefit-card" data-reveal>
+            <div class="benefit-icon-box">
+              <svg class="benefit-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
+                <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
+              </svg>
+            </div>
+            <h3 class="benefit-title">Privacidad</h3>
+            <p class="benefit-subtitle">Pensado para una estadía discreta</p>
+            <p class="benefit-desc">Ambientes reservados que priorizan la tranquilidad y confidencialidad en todo momento.</p>
+          </div>
+
+          <!-- Comodidad -->
+          <div class="benefit-card" data-reveal>
+            <div class="benefit-icon-box">
+              <svg class="benefit-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M2 4v16"></path>
+                <path d="M2 8h18a2 2 0 0 1 2 2v10"></path>
+                <path d="M2 17h20"></path>
+                <path d="M6 8v9"></path>
+              </svg>
+            </div>
+            <h3 class="benefit-title">Comodidad</h3>
+            <p class="benefit-subtitle">Espacios acondicionados para tu descanso</p>
+            <p class="benefit-desc">Habitaciones preparadas con el equipamiento necesario para una estadía confortable.</p>
+          </div>
+
+          <!-- Consulta rápida -->
+          <div class="benefit-card" data-reveal>
+            <div class="benefit-icon-box">
+              <svg class="benefit-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <rect x="5" y="2" width="14" height="20" rx="2" ry="2"></rect>
+                <line x1="12" y1="18" x2="12.01" y2="18"></line>
+              </svg>
+            </div>
+            <h3 class="benefit-title">Consulta rápida</h3>
+            <p class="benefit-subtitle">Precios y disponibilidad al instante</p>
+            <p class="benefit-desc">Calcula el tiempo de estadía y realiza tu consulta directamente desde tu dispositivo móvil.</p>
+          </div>
+
+          <!-- Ubicación accesible -->
+          <div class="benefit-card" data-reveal>
+            <div class="benefit-icon-box">
+              <svg class="benefit-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                <circle cx="12" cy="10" r="3"></circle>
+              </svg>
+            </div>
+            <h3 class="benefit-title">Ubicación accesible</h3>
+            <p class="benefit-subtitle">En Tarija, con fácil llegada y discreción</p>
+            <p class="benefit-desc">Punto accesible con orientación de llegada disponible a través de nuestro canal de contacto.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. GALERÍA -->
+    <section class="section gallery-section" id="galeria">
+      <div class="container">
+        <div class="section-header" data-reveal>
+          <span class="section-tag">Nuestras Instalaciones</span>
+          <h2 class="section-title">Conoce nuestros espacios</h2>
+          <p class="section-description">Comodidad y privacidad en cada detalle para tu momento de relajación.</p>
+        </div>
+
+        <div class="gallery-editorial-layout">
+          <!-- Imagen Principal -->
+          <figure class="gallery-card gallery-card-featured" data-reveal>
+            <div class="gallery-img-wrap">
+              <img src="assets/images/habitacion-2.jpg" alt="Habitación Completa - Motel La Gaviota" class="gallery-editorial-img" loading="lazy">
+              <div class="gallery-img-badge">Principal</div>
+            </div>
+            <figcaption class="gallery-editorial-caption">
+              <span class="caption-tag">Habitación Completa</span>
+              <h3 class="caption-title">Espacios amplios y confortables</h3>
+              <p class="caption-desc">Diseñada para una experiencia de mayor holgura con acabados cálidos e iluminación ambiental.</p>
+            </figcaption>
+          </figure>
+
+          <!-- Imagen Secundaria -->
+          <figure class="gallery-card gallery-card-secondary" data-reveal>
+            <div class="gallery-img-wrap">
+              <img src="assets/images/habitacion-1.jpg" alt="Habitación Sencilla - Motel La Gaviota" class="gallery-editorial-img" loading="lazy">
+              <div class="gallery-img-badge">Práctica</div>
+            </div>
+            <figcaption class="gallery-editorial-caption">
+              <span class="caption-tag">Habitación Sencilla</span>
+              <h3 class="caption-title">Privacidad y descanso funcional</h3>
+              <p class="caption-desc">Una alternativa óptima y reservada que reúne lo indispensable para una estancia placentera.</p>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6. CONSULTA DE DISPONIBILIDAD (CALCULADORA INTERACTIVA) -->
+    <section class="section booking-section" id="consulta">
+      <div class="container">
+        <div class="booking-card-wrapper" data-reveal>
+          <div class="booking-card-badge-pill">
+            <span class="badge-pulse"></span>
+            Calculadora Interactiva
+          </div>
+          <div class="section-header booking-header">
+            <h2 class="section-title booking-title">Consulta tu estadía</h2>
+            <p class="section-description booking-subtitle">Elige la habitación y el tiempo que necesitas para obtener una cotización referencial al instante.</p>
+          </div>
+
+          <div class="calculator-form">
+            <div class="calculator-grid">
+              <!-- Selector de Habitación -->
+              <div class="form-group">
+                <label for="calc-room" class="form-label">
+                  <span class="label-text">Tipo de habitación</span>
+                  <span class="label-helper">Elige tu espacio</span>
+                </label>
+                <div class="select-wrapper">
+                  <select id="calc-room" class="form-input form-select calc-input" aria-label="Seleccionar habitación">
+                    <option value="completa" selected>Habitación Completa (Segundo piso)</option>
+                    <option value="sencilla">Habitación Sencilla</option>
+                  </select>
+                  <div class="select-chevron" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Selector de Horas -->
+              <div class="form-group">
+                <label for="calc-hours" class="form-label">
+                  <span class="label-text">Cantidad de tiempo</span>
+                  <span class="label-helper">1 a 6 horas</span>
+                </label>
+                <div class="select-wrapper">
+                  <select id="calc-hours" class="form-input form-select calc-input" aria-label="Seleccionar horas">
+                    <option value="1">1 hora</option>
+                    <option value="2">2 horas</option>
+                    <option value="3">3 horas</option>
+                    <option value="4">4 horas</option>
+                    <option value="5">5 horas</option>
+                    <option value="6">6 horas</option>
+                  </select>
+                  <div class="select-chevron" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Visualización Destacada del Precio Estimado -->
+            <div class="calc-price-display-box" aria-live="polite">
+              <div class="calc-price-header">
+                <span class="calc-price-badge-tag">Cotización Estimada</span>
+                <span class="calc-price-label">Monto Referencial</span>
+              </div>
+              <div class="calc-price-main">
+                <span class="calc-price-currency">Bs</span>
+                <span class="calc-price-value" id="calc-price-amount">50</span>
+              </div>
+              <p class="calc-price-disclaimer">Precio estimado sujeto a disponibilidad en el momento de consulta.</p>
+            </div>
+
+            <!-- Botón Principal -->
+            <div class="calc-actions">
+              <button type="button" class="btn btn-primary btn-block btn-lg btn-calc-submit" id="btn-open-modal">
+                <span>Continuar consulta</span>
+                <svg class="btn-icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg>
+              </button>
+              <p class="form-privacy-note">
+                <svg class="privacy-note-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
+                  <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
+                </svg>
+                Consulta 100% directa y confidencial desde tu celular.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 7. INFORMACIÓN PARA TU VISITA -->
+    <section class="section info-section" id="ubicacion">
+      <div class="container">
+        <div class="section-header" data-reveal>
+          <span class="section-tag">Detalles Prácticos</span>
+          <h2 class="section-title">Información para tu visita</h2>
+          <p class="section-description">Datos útiles para organizar tu llegada de manera rápida, discreta y sin inconvenientes.</p>
+        </div>
+
+        <div class="info-cards-grid">
+          <!-- Bloque 1: Ubicación -->
+          <div class="info-block-card" data-reveal>
+            <div class="info-block-icon-box">
+              <svg class="info-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                <circle cx="12" cy="10" r="3"></circle>
+              </svg>
+            </div>
+            <h3 class="info-block-title">Ubicación</h3>
+            <p class="info-block-main">Tarija, Bolivia</p>
+            <p class="info-block-sub">Ubicación accesible en la ciudad de Tarija. Dirección exacta provista en la consulta.</p>
+            <div class="info-block-action">
+              <a href="#consulta" class="btn btn-secondary btn-sm">Solicitar ubicación</a>
+            </div>
+          </div>
+
+          <!-- Bloque 2: Acceso -->
+          <div class="info-block-card" data-reveal>
+            <div class="info-block-icon-box">
+              <svg class="info-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <polygon points="3 11 22 2 13 21 11 13 3 11"></polygon>
+              </svg>
+            </div>
+            <h3 class="info-block-title">Acceso</h3>
+            <p class="info-block-main">Llegada rápida y discreta</p>
+            <p class="info-block-sub">Información de acceso y rutas recomendadas disponibles mediante el canal de atención.</p>
+          </div>
+
+          <!-- Bloque 3: Privacidad -->
+          <div class="info-block-card" data-reveal>
+            <div class="info-block-icon-box">
+              <svg class="info-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
+                <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
+              </svg>
+            </div>
+            <h3 class="info-block-title">Privacidad</h3>
+            <p class="info-block-main">Atención reservada</p>
+            <p class="info-block-sub">Consulta disponibilidad y cotización previa sin necesidad de registro ni esperas.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- 8. FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer-container">
+      <div class="footer-brand" data-reveal>
+        <div class="footer-logo-row">
+          <img src="assets/logos/logo_motel_gaviota.jpg" alt="Logo Motel La Gaviota" class="footer-logo-img">
+          <span class="footer-brand-title">Motel La Gaviota</span>
+        </div>
+        <p class="footer-tagline">Tu espacio. Tu privacidad. Tu momento en Tarija, Bolivia.</p>
+      </div>
+
+      <div class="footer-links-group" data-reveal>
+        <h4 class="footer-heading">Navegación</h4>
+        <ul class="footer-nav">
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#habitaciones">Habitaciones</a></li>
+          <li><a href="#servicios">Servicios</a></li>
+          <li><a href="#galeria">Galería</a></li>
+          <li><a href="#consulta">Disponibilidad</a></li>
+          <li><a href="#ubicacion">Ubicación</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-contact-group" data-reveal>
+        <h4 class="footer-heading">Información</h4>
+        <p class="footer-info-line"><strong>Ubicación:</strong> Tarija, Bolivia</p>
+        <p class="footer-info-line"><strong>Canal:</strong> Consulta de disponibilidad móvil</p>
+        <p class="footer-info-line"><strong>Estilo:</strong> Confort, reserva y atención discreta</p>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container footer-bottom-container">
+        <p class="copyright">&copy; 2026 Motel La Gaviota. Todos los derechos reservados. Proyecto MVP Académico.</p>
+        <p class="footer-disclaimer">Privacidad, confort y discreción asegurada.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- MODAL DE CONSULTA RESUMEN -->
+  <div id="modal-consulta" class="modal-backdrop" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+    <div class="modal-dialog">
+      <button type="button" class="modal-close" id="btn-close-modal-x" aria-label="Cerrar ventana">&times;</button>
+      
+      <div class="modal-header">
+        <span class="modal-badge-pill">Tu consulta</span>
+        <h3 id="modal-title" class="modal-title">Tu consulta está lista</h3>
+        <p class="modal-subtitle">Revisa el resumen antes de continuar:</p>
+      </div>
+
+      <div class="modal-summary-box">
+        <div class="summary-item">
+          <span class="summary-item-label">Habitación:</span>
+          <span class="summary-item-value" id="modal-room-name">Habitación Completa</span>
+        </div>
+        <div class="summary-item">
+          <span class="summary-item-label">Tiempo seleccionado:</span>
+          <span class="summary-item-value" id="modal-duration">1 hora</span>
+        </div>
+        <div class="summary-item summary-item-price">
+          <span class="summary-item-label">Precio estimado:</span>
+          <span class="summary-item-value summary-price-val" id="modal-total-price">Bs 50</span>
+        </div>
+      </div>
+
+      <!-- Vista previa del mensaje cuando WHATSAPP_NUMBER está vacío -->
+      <div id="modal-whatsapp-preview" class="modal-whatsapp-preview" style="display: none;">
+        <div class="preview-bubble">
+          <span class="preview-bubble-label">Mensaje preparado:</span>
+          <p id="preview-message-text" class="preview-message-text"></p>
+        </div>
+        <p class="preview-mvp-notice">Prototipo MVP: el número comercial oficial se conectará en la implementación.</p>
+      </div>
+
+      <div class="modal-actions">
+        <button type="button" class="btn btn-primary btn-block btn-whatsapp-action" id="btn-modal-whatsapp">
+          Continuar por WhatsApp
+        </button>
+        <button type="button" class="btn btn-secondary btn-block" id="btn-close-modal">
+          Volver
+        </button>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
