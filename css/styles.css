@@ -229,6 +229,22 @@ button, input, select, textarea {
   transform: translateY(0);
 }
 
+/* Variante para el hero oscuro */
+.btn-hero-secondary {
+  background-color: rgba(255, 255, 255, 0.15);
+  color: #ffffff;
+  border-color: rgba(255, 255, 255, 0.55);
+  backdrop-filter: blur(6px);
+}
+
+.btn-hero-secondary:hover,
+.btn-hero-secondary:focus-visible {
+  background-color: rgba(255, 255, 255, 0.28);
+  color: #ffffff;
+  border-color: rgba(255, 255, 255, 0.8);
+  transform: translateY(-2px);
+}
+
 .btn-block {
   width: 100%;
 }
